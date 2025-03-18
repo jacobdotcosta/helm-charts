@@ -1,0 +1,194 @@
+apiVersion: v1
+entries:
+  gitea:
+  - apiVersion: v2
+    appVersion: 1.22.6
+    created: "2025-03-18T21:28:18.621763737Z"
+    description: A Helm chart for Gitea
+    digest: 4cdf1e521c6a973dafa72d2443b59467441243dc92acc6771dfc6207a81741ae
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: gitea
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/gitea-0.1.0/gitea-0.1.0.tgz
+    version: 0.1.0
+  gitlab:
+  - apiVersion: v2
+    appVersion: 15.4.0-ee.0
+    created: "2025-03-18T21:28:18.744672699Z"
+    description: A Helm chart for Kubernetes
+    digest: 289202d26960de18704b9a0588854169d7b65f2192883193e95eba4f1cab8fc8
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: gitlab
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/gitlab-0.1.0/gitlab-0.1.0.tgz
+    version: 0.1.0
+  glpi:
+  - apiVersion: v2
+    appVersion: 0.0.11
+    created: "2025-03-18T21:28:18.861510849Z"
+    description: Deploy GLPI application
+    digest: ead58ba8fff2f71589b8ed17ba03fb964e85ec922e8d112c0afbe33c1630f380
+    home: https://github.com/trikorasolns/glpi-container
+    keywords:
+    - glpi
+    - itil
+    - helpdesk
+    - ticketing
+    - cmdb
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: glpi
+    sources:
+    - https://github.com/trikorasolns/glpi-container
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/glpi-0.0.2/glpi-0.0.2.tgz
+    version: 0.0.2
+  grafana:
+  - apiVersion: v2
+    appVersion: 11.4.0
+    created: "2025-03-18T21:28:18.985025536Z"
+    description: A Helm chart for Kubernetes
+    digest: 220a07324927168cf64257d1b80603155993beddb4441a5a621d897070ef4488
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: grafana
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/grafana-0.1.2/grafana-0.1.2.tgz
+    version: 0.1.2
+  jenkins:
+  - apiVersion: v2
+    appVersion: 2.401.3-lts
+    created: "2025-03-18T21:28:19.093434819Z"
+    description: A Helm chart for Kubernetes
+    digest: c10b6904a206e83e5a9f676eb780a88256c1308ec698c944afaa5d635721694d
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: jenkins
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/jenkins-0.1.0/jenkins-0.1.0.tgz
+    version: 0.1.0
+  keycloak:
+  - apiVersion: v2
+    appVersion: 26.1.3
+    created: "2025-03-18T21:28:19.203036493Z"
+    description: A Helm chart for Kubernetes
+    digest: ae07dcd39e7e1ae6145b513b2a8cc2539dcc3f24d0c2dea9d87971b7661a3123
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: keycloak
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/keycloak-0.1.1/keycloak-0.1.1.tgz
+    version: 0.1.1
+  mariadb:
+  - apiVersion: v2
+    appVersion: "10.6"
+    created: "2025-03-18T21:28:19.299870351Z"
+    description: A Helm chart for Kubernetes
+    digest: 73abdb6d2ffffd6b7fb310d08b0c34b5b4c6e338ea86c2c36f5c3b53e367aa49
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: mariadb
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/mariadb-0.1.0/mariadb-0.1.0.tgz
+    version: 0.1.0
+  odoo:
+  - apiVersion: v2
+    appVersion: "16.0"
+    created: "2025-03-18T21:28:19.411775907Z"
+    description: A Helm chart for Kubernetes
+    digest: dd001bc704e67bd79df70e84dad9c0a58e92a8ebed7711f26dcd41aeacb34dc4
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: odoo
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/odoo-0.1.0/odoo-0.1.0.tgz
+    version: 0.1.0
+  pgadmin:
+  - apiVersion: v2
+    appVersion: "6"
+    created: "2025-03-18T21:28:19.54256377Z"
+    description: A Helm chart for Kubernetes
+    digest: fb615fa87b9890b45c1cda4de5f5823b58630fa8859f58a7e2a3917644b12b1d
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: pgadmin
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/pgadmin-0.1.0/pgadmin-0.1.0.tgz
+    version: 0.1.0
+  phpmyadmin:
+  - apiVersion: v2
+    appVersion: 5.2.1
+    created: "2025-03-18T21:28:19.643531257Z"
+    description: A Helm chart for Kubernetes
+    digest: f9eb48b304c4f0ab38d5583e72802ad2eb92229063421dbd452518b55dd2a644
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: phpmyadmin
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/phpmyadmin-0.1.0/phpmyadmin-0.1.0.tgz
+    version: 0.1.0
+  postgresql:
+  - apiVersion: v2
+    appVersion: "12.5"
+    created: "2025-03-18T21:28:19.763199413Z"
+    description: A Helm chart for Kubernetes
+    digest: 68c4c0c774911eb0b3480311bf6c26019d2b8f07ae801b7b211980777dd7a2ac
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: postgresql
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/postgresql-0.1.1/postgresql-0.1.1.tgz
+    version: 0.1.1
+  redis:
+  - apiVersion: v2
+    appVersion: 7.0.0
+    created: "2025-03-18T21:28:19.881490529Z"
+    description: A Helm chart for Kubernetes
+    digest: 8c4f2e6bd23203179e0d38c084afd76c40c49e7ffad748e6925a7ad90147c1f9
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: redis
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/redis-0.1.0/redis-0.1.0.tgz
+    version: 0.1.0
+  sonarqube:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-18T21:28:19.985873513Z"
+    description: A Helm chart for Kubernetes
+    digest: 3c874be4329730e983bc38bff39adfe27ea360a94fa380e086e5b597b35d4979
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: sonarqube
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/sonarqube-0.1.0/sonarqube-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-18T21:28:19.985886878Z"
