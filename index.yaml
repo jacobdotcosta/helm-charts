@@ -30,6 +30,28 @@ entries:
     version: 0.1.0
   glpi:
   - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2025-09-08T07:49:11.851065298Z"
+    description: Deploy GLPI application
+    digest: e32ad83f970305d6c12fa513960e7eb9fa53e63fdd57f242d9452a800ef23087
+    home: https://github.com/trikorasolns/glpi-container
+    keywords:
+    - glpi
+    - itil
+    - helpdesk
+    - ticketing
+    - cmdb
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: glpi
+    sources:
+    - https://github.com/trikorasolns/glpi-container
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/glpi-0.0.3/glpi-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.11
     created: "2025-03-18T21:28:18.861510849Z"
     description: Deploy GLPI application
@@ -68,6 +90,19 @@ entries:
   jenkins:
   - apiVersion: v2
     appVersion: 2.401.3-lts
+    created: "2025-09-08T07:49:12.033571529Z"
+    description: A Helm chart for Kubernetes
+    digest: e3b4ef66710fead280d02545c5d1a28ed3e8bcdca963d1d395530d4943449876
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: jenkins
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/jenkins-0.1.1/jenkins-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 2.401.3-lts
     created: "2025-03-18T21:28:19.093434819Z"
     description: A Helm chart for Kubernetes
     digest: c10b6904a206e83e5a9f676eb780a88256c1308ec698c944afaa5d635721694d
@@ -96,6 +131,19 @@ entries:
   mariadb:
   - apiVersion: v2
     appVersion: "10.6"
+    created: "2025-09-08T07:49:12.232565585Z"
+    description: A Helm chart for Kubernetes
+    digest: e1b3b39ac305fa332d52efcc4490ff7c2fa89f7aa772ad19e0f72741dc07d340
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: mariadb
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/mariadb-0.1.1/mariadb-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "10.6"
     created: "2025-03-18T21:28:19.299870351Z"
     description: A Helm chart for Kubernetes
     digest: 73abdb6d2ffffd6b7fb310d08b0c34b5b4c6e338ea86c2c36f5c3b53e367aa49
@@ -108,6 +156,19 @@ entries:
     - https://github.com/jacobdotcosta/helm-charts/releases/download/mariadb-0.1.0/mariadb-0.1.0.tgz
     version: 0.1.0
   odoo:
+  - apiVersion: v2
+    appVersion: "17.0"
+    created: "2025-09-08T07:49:12.502206634Z"
+    description: A Helm chart for Kubernetes
+    digest: 21288068d4ffca0ee2b120ba83376309954c2b872b792a5b1e6843331fd77359
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: odoo
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/odoo-0.1.1/odoo-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: "16.0"
     created: "2025-03-18T21:28:19.411775907Z"
@@ -191,4 +252,4 @@ entries:
     urls:
     - https://github.com/jacobdotcosta/helm-charts/releases/download/sonarqube-0.1.0/sonarqube-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-18T21:28:19.985886878Z"
+generated: "2025-09-08T07:49:12.502223887Z"
