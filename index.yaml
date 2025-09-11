@@ -17,6 +17,19 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 15.4.0-ee.0
+    created: "2025-09-11T12:09:27.783481063Z"
+    description: A Helm chart for Kubernetes
+    digest: fd22f9e2a9c3df3ac312cf349255a8c801119daddf523e69603f52a9f0868a02
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: gitlab
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/gitlab-0.1.2/gitlab-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 15.4.0-ee.0
     created: "2025-03-18T21:28:18.744672699Z"
     description: A Helm chart for Kubernetes
     digest: 289202d26960de18704b9a0588854169d7b65f2192883193e95eba4f1cab8fc8
@@ -158,6 +171,19 @@ entries:
   odoo:
   - apiVersion: v2
     appVersion: "17.0"
+    created: "2025-09-11T12:09:27.997807436Z"
+    description: A Helm chart for Kubernetes
+    digest: 5ba238d7316e2863d3721d07623cce6cc219e3bbe50b7ff6951e930805c827e7
+    maintainers:
+    - email: ac@trikorasolutions.com
+      name: jacobdotcosta
+    name: odoo
+    type: application
+    urls:
+    - https://github.com/jacobdotcosta/helm-charts/releases/download/odoo-0.1.2/odoo-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: "17.0"
     created: "2025-09-08T07:49:12.502206634Z"
     description: A Helm chart for Kubernetes
     digest: 21288068d4ffca0ee2b120ba83376309954c2b872b792a5b1e6843331fd77359
@@ -252,4 +278,4 @@ entries:
     urls:
     - https://github.com/jacobdotcosta/helm-charts/releases/download/sonarqube-0.1.0/sonarqube-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-08T07:49:12.502223887Z"
+generated: "2025-09-11T12:09:27.997842241Z"
